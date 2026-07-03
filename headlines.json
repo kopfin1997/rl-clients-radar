@@ -1,0 +1,1284 @@
+{
+  "updatedAt": "2026-07-03T21:51:39.723846+00:00",
+  "clients": [
+    {
+      "name": "F1",
+      "shortName": "F1",
+      "category": "Motorsport",
+      "keywords": [
+        "formula 1",
+        "f1",
+        "grand prix",
+        "fia formula one"
+      ],
+      "aliases": [
+        "Formula 1"
+      ]
+    },
+    {
+      "name": "Formula E",
+      "shortName": "FE",
+      "category": "Motorsport",
+      "keywords": [
+        "formula e",
+        "fia formula e",
+        "e-prix",
+        "gen4"
+      ],
+      "aliases": [
+        "FE"
+      ]
+    },
+    {
+      "name": "Jaguar TCS FE",
+      "shortName": "JAG",
+      "category": "Motorsport",
+      "keywords": [
+        "jaguar tcs",
+        "jaguar racing",
+        "jaguar tcs racing",
+        "jaguar formula e"
+      ],
+      "aliases": [
+        "Jaguar Racing",
+        "Jaguar TCS Racing"
+      ]
+    },
+    {
+      "name": "Ferrari F1",
+      "shortName": "FER",
+      "category": "Motorsport",
+      "keywords": [
+        "scuderia ferrari",
+        "ferrari f1",
+        "ferrari formula 1",
+        "leclerc",
+        "hamilton"
+      ],
+      "aliases": [
+        "Scuderia Ferrari"
+      ]
+    },
+    {
+      "name": "Liverpool FC",
+      "shortName": "LFC",
+      "category": "Football",
+      "keywords": [
+        "liverpool fc",
+        "liverpool",
+        "lfc",
+        "anfield"
+      ],
+      "aliases": [
+        "Liverpool"
+      ]
+    },
+    {
+      "name": "FIFA",
+      "shortName": "FIFA",
+      "category": "Football",
+      "keywords": [
+        "fifa",
+        "world cup",
+        "club world cup",
+        "world cup 2026"
+      ],
+      "aliases": [
+        "FIFA World Cup"
+      ]
+    },
+    {
+      "name": "Premier League",
+      "shortName": "PL",
+      "category": "Football",
+      "keywords": [
+        "premier league",
+        "epl",
+        "english premier league"
+      ],
+      "aliases": [
+        "EPL"
+      ]
+    },
+    {
+      "name": "Juventus",
+      "shortName": "JUV",
+      "category": "Football",
+      "keywords": [
+        "juventus",
+        "juve",
+        "bianconeri"
+      ],
+      "aliases": [
+        "Juve"
+      ]
+    },
+    {
+      "name": "Chicago Bulls",
+      "shortName": "Bulls",
+      "category": "Basketball",
+      "keywords": [
+        "chicago bulls",
+        "bulls",
+        "nba bulls"
+      ],
+      "aliases": [
+        "Bulls"
+      ]
+    },
+    {
+      "name": "WST",
+      "shortName": "WST",
+      "category": "Snooker",
+      "keywords": [
+        "world snooker tour",
+        "wst",
+        "snooker"
+      ],
+      "aliases": [
+        "World Snooker Tour"
+      ]
+    },
+    {
+      "name": "SailGP",
+      "shortName": "SGP",
+      "category": "Sailing",
+      "keywords": [
+        "sailgp",
+        "rolex sailgp championship",
+        "sail gp"
+      ],
+      "aliases": [
+        "Rolex SailGP Championship"
+      ]
+    },
+    {
+      "name": "ITF",
+      "shortName": "ITF",
+      "category": "Tennis",
+      "keywords": [
+        "international tennis federation",
+        "itf",
+        "world tennis tour"
+      ],
+      "aliases": [
+        "International Tennis Federation"
+      ]
+    },
+    {
+      "name": "DP World Tour",
+      "shortName": "DPWT",
+      "category": "Golf",
+      "keywords": [
+        "dp world tour",
+        "race to dubai",
+        "european tour golf"
+      ],
+      "aliases": [
+        "European Tour"
+      ]
+    },
+    {
+      "name": "Shanghai Marathon",
+      "shortName": "SHM",
+      "category": "Running",
+      "keywords": [
+        "shanghai marathon",
+        "shanghai race",
+        "上马",
+        "上海马拉松"
+      ],
+      "aliases": [
+        "SHM"
+      ]
+    },
+    {
+      "name": "Gordon Ramsay",
+      "shortName": "GR",
+      "category": "Hospitality",
+      "keywords": [
+        "gordon ramsay",
+        "gordon ramsay restaurants",
+        "bread street kitchen",
+        "lucky cat by gordon ramsay"
+      ],
+      "aliases": [
+        "Gordon Ramsay Restaurants"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "client": "F1",
+      "sourceType": "Official",
+      "label": "Formula1.com latest",
+      "url": "https://www.formula1.com/en/latest",
+      "method": "scrape"
+    },
+    {
+      "client": "F1",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Formula 1",
+      "url": "https://news.google.com/rss/search?q=Formula%201%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "F1",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Formula 1",
+      "url": "https://news.google.com/rss/search?q=Formula%201%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "Formula E",
+      "sourceType": "Official",
+      "label": "Formula E news",
+      "url": "https://www.fiaformulae.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Formula E",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Formula E",
+      "url": "https://news.google.com/rss/search?q=Formula%20E%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Formula E",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Formula E",
+      "url": "https://news.google.com/rss/search?q=Formula%20E%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "Jaguar TCS FE",
+      "sourceType": "Official",
+      "label": "Jaguar Racing Media Centre",
+      "url": "https://media.jaguarracing.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Jaguar TCS FE",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Jaguar TCS Racing",
+      "url": "https://news.google.com/rss/search?q=Jaguar%20TCS%20Racing%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Jaguar TCS FE",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Jaguar Formula E",
+      "url": "https://news.google.com/rss/search?q=Jaguar%20Formula%20E%20site:reuters.com%20when:21d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "Ferrari F1",
+      "sourceType": "Official",
+      "label": "Ferrari Formula 1",
+      "url": "https://www.ferrari.com/en-EN/formula1",
+      "method": "scrape"
+    },
+    {
+      "client": "Ferrari F1",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Scuderia Ferrari",
+      "url": "https://news.google.com/rss/search?q=Scuderia%20Ferrari%20F1%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Ferrari F1",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Ferrari F1",
+      "url": "https://news.google.com/rss/search?q=Ferrari%20Formula%201%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "Liverpool FC",
+      "sourceType": "Official",
+      "label": "LiverpoolFC.com/news",
+      "url": "https://www.liverpoolfc.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Liverpool FC",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Liverpool FC",
+      "url": "https://news.google.com/rss/search?q=Liverpool%20FC%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Liverpool FC",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Liverpool FC",
+      "url": "https://news.google.com/rss/search?q=Liverpool%20FC%20site:bbc.com%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "BBC Sport",
+        "BBC News"
+      ],
+      "domainAllowlist": [
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "client": "FIFA",
+      "sourceType": "Official",
+      "label": "FIFA.com news",
+      "url": "https://www.fifa.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "FIFA",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: FIFA",
+      "url": "https://news.google.com/rss/search?q=FIFA%20World%20Cup%202026%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "FIFA",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: World Cup 2026",
+      "url": "https://news.google.com/rss/search?q=World%20Cup%202026%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "Premier League",
+      "sourceType": "Official",
+      "label": "PremierLeague.com/news",
+      "url": "https://www.premierleague.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Premier League",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Premier League",
+      "url": "https://news.google.com/rss/search?q=Premier%20League%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Premier League",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Premier League",
+      "url": "https://news.google.com/rss/search?q=Premier%20League%20site:bbc.com%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "BBC Sport",
+        "BBC News"
+      ],
+      "domainAllowlist": [
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "client": "Juventus",
+      "sourceType": "Official",
+      "label": "Juventus news",
+      "url": "https://www.juventus.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Juventus",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Juventus",
+      "url": "https://news.google.com/rss/search?q=Juventus%20when:5d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Juventus",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Juventus",
+      "url": "https://news.google.com/rss/search?q=Juventus%20site:bbc.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "BBC Sport",
+        "BBC News"
+      ],
+      "domainAllowlist": [
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "client": "Chicago Bulls",
+      "sourceType": "Official",
+      "label": "NBA.com/Bulls news",
+      "url": "https://www.nba.com/bulls/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Chicago Bulls",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Chicago Bulls",
+      "url": "https://news.google.com/rss/search?q=Chicago%20Bulls%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Chicago Bulls",
+      "sourceType": "Third-party RSS",
+      "label": "AP via Google News: Chicago Bulls",
+      "url": "https://news.google.com/rss/search?q=Chicago%20Bulls%20site:apnews.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "AP News",
+        "The Associated Press"
+      ],
+      "domainAllowlist": [
+        "apnews.com"
+      ]
+    },
+    {
+      "client": "WST",
+      "sourceType": "Official",
+      "label": "WST.tv news",
+      "url": "https://www.wst.tv/news",
+      "method": "scrape"
+    },
+    {
+      "client": "WST",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: World Snooker Tour",
+      "url": "https://news.google.com/rss/search?q=World%20Snooker%20Tour%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "WST",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Snooker",
+      "url": "https://news.google.com/rss/search?q=Snooker%20site:bbc.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "BBC Sport",
+        "BBC News"
+      ],
+      "domainAllowlist": [
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    },
+    {
+      "client": "SailGP",
+      "sourceType": "Official",
+      "label": "SailGP news",
+      "url": "https://sailgp.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "SailGP",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: SailGP",
+      "url": "https://news.google.com/rss/search?q=SailGP%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "SailGP",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: SailGP",
+      "url": "https://news.google.com/rss/search?q=SailGP%20site:reuters.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "ITF",
+      "sourceType": "Official",
+      "label": "ITF World Tennis News",
+      "url": "https://www.itftennis.com/en/news-and-media/articles/",
+      "method": "scrape"
+    },
+    {
+      "client": "ITF",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: ITF Tennis",
+      "url": "https://news.google.com/rss/search?q=ITF%20tennis%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "ITF",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: ITF Tennis",
+      "url": "https://news.google.com/rss/search?q=ITF%20tennis%20site:reuters.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "DP World Tour",
+      "sourceType": "Official",
+      "label": "DP World Tour news",
+      "url": "https://www.dpworldtour.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "DP World Tour",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: DP World Tour",
+      "url": "https://news.google.com/rss/search?q=DP%20World%20Tour%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "DP World Tour",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: DP World Tour",
+      "url": "https://news.google.com/rss/search?q=DP%20World%20Tour%20site:reuters.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "Reuters"
+      ],
+      "domainAllowlist": [
+        "reuters.com"
+      ]
+    },
+    {
+      "client": "Shanghai Marathon",
+      "sourceType": "Official",
+      "label": "Shanghai Marathon official",
+      "url": "https://static.shang-ma.com/",
+      "method": "scrape"
+    },
+    {
+      "client": "Shanghai Marathon",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Shanghai Marathon",
+      "url": "https://news.google.com/rss/search?q=Shanghai%20Marathon%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Shanghai Marathon",
+      "sourceType": "Third-party RSS",
+      "label": "China Daily via Google News: Shanghai Marathon",
+      "url": "https://news.google.com/rss/search?q=Shanghai%20Marathon%20site:chinadaily.com.cn%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "China Daily"
+      ],
+      "domainAllowlist": [
+        "chinadaily.com.cn"
+      ]
+    },
+    {
+      "client": "Gordon Ramsay",
+      "sourceType": "Official",
+      "label": "Gordon Ramsay Restaurants what's on",
+      "url": "https://www.gordonramsayrestaurants.com/whats-on/",
+      "method": "scrape"
+    },
+    {
+      "client": "Gordon Ramsay",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Gordon Ramsay",
+      "url": "https://news.google.com/rss/search?q=Gordon%20Ramsay%20restaurants%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Gordon Ramsay",
+      "sourceType": "Third-party RSS",
+      "label": "BBC News via Google News: Gordon Ramsay",
+      "url": "https://news.google.com/rss/search?q=Gordon%20Ramsay%20site:bbc.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": [
+        "BBC News"
+      ],
+      "domainAllowlist": [
+        "bbc.com",
+        "bbc.co.uk"
+      ]
+    }
+  ],
+  "summary": {
+    "trackedClientCount": 15,
+    "coveredClientCount": 11,
+    "sourceCount": 45,
+    "itemCount": 38,
+    "officialItemCount": 5,
+    "thirdPartyItemCount": 33,
+    "coverImageCount": 5
+  },
+  "items": [
+    {
+      "id": "8502a9f4e93896fa",
+      "client": "Liverpool FC",
+      "clientShortName": "LFC",
+      "clientCategory": "Football",
+      "sourceType": "Official",
+      "title": "'An eternal love' - the creation of Anfield tribute to Diogo Jota and André Silva - Liverpool FC",
+      "summary": "The creator of the new Anfield memorial in honour of Diogo Jota and André Silva has shared details of how the permanent tribute was designed.",
+      "url": "https://www.liverpoolfc.com/news/eternal-love-creation-anfield-tribute-diogo-jota-and-andre-silva",
+      "sourceName": "LiverpoolFC.com/news",
+      "publishedAt": "2026-07-03T00:00:00+00:00",
+      "importance": 80,
+      "relevanceScore": 125,
+      "verification": "Official source",
+      "imageUrl": "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2026-07/diogo-jota-online-tributes-03072026_28c4a9f3bbc10bffe536b874bd903f71.webp?itok=qoTbDpWu&width=1680",
+      "imageAlt": "'An eternal love' - the creation of Anfield tribute to Diogo Jota and André Silva - Liverpool FC"
+    },
+    {
+      "id": "cf5a36e38141f3d2",
+      "client": "Liverpool FC",
+      "clientShortName": "LFC",
+      "clientCategory": "Football",
+      "sourceType": "Official",
+      "title": "Photos: Diogo Jota and André Silva memorial at Anfield unveiled - Liverpool FC",
+      "summary": "View photos of the permanent Anfield memorial in honour of Diogo Jota and André Silva that has been officially unveiled.",
+      "url": "https://www.liverpoolfc.com/news/photos-diogo-jota-and-andre-silva-memorial-anfield-unveiled",
+      "sourceName": "LiverpoolFC.com/news",
+      "publishedAt": "2026-07-02T00:00:00+00:00",
+      "importance": 80,
+      "relevanceScore": 125,
+      "verification": "Official source",
+      "imageUrl": "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2026-07/diogo-jota-online-tributes-03072026_28c4a9f3bbc10bffe536b874bd903f71.webp?itok=qoTbDpWu&width=1680",
+      "imageAlt": "Photos: Diogo Jota and André Silva memorial at Anfield unveiled - Liverpool FC"
+    },
+    {
+      "id": "b94d1b26d7343ec2",
+      "client": "Liverpool FC",
+      "clientShortName": "LFC",
+      "clientCategory": "Football",
+      "sourceType": "Official",
+      "title": "Anniversary respects paid to Diogo Jota and André Silva at Anfield - Liverpool FC",
+      "summary": "Respects were paid at Anfield on Friday to mark the first anniversary of the tragic loss of Diogo Jota and André Silva.",
+      "url": "https://www.liverpoolfc.com/news/anniversary-respects-paid-diogo-jota-and-andre-silva-anfield",
+      "sourceName": "LiverpoolFC.com/news",
+      "publishedAt": "2026-07-03T00:00:00+00:00",
+      "importance": 75,
+      "relevanceScore": 125,
+      "verification": "Official source",
+      "imageUrl": "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2026-07/diogo-jota-online-tributes-03072026_28c4a9f3bbc10bffe536b874bd903f71.webp?itok=qoTbDpWu&width=1680",
+      "imageAlt": "Anniversary respects paid to Diogo Jota and André Silva at Anfield - Liverpool FC"
+    },
+    {
+      "id": "bf37c3e33a8508b4",
+      "client": "Liverpool FC",
+      "clientShortName": "LFC",
+      "clientCategory": "Football",
+      "sourceType": "Official",
+      "title": "'Always in our hearts' - tributes paid to Diogo Jota and André Silva - Liverpool FC",
+      "summary": "Tributes have been paid to Diogo Jota and André Silva from teammates and the world of football on the first anniversary of their tragic passing.",
+      "url": "https://www.liverpoolfc.com/news/always-our-hearts-tributes-paid-diogo-jota-and-andre-silva",
+      "sourceName": "LiverpoolFC.com/news",
+      "publishedAt": "2026-07-03T00:00:00+00:00",
+      "importance": 75,
+      "relevanceScore": 90,
+      "verification": "Official source",
+      "imageUrl": "https://backend.liverpoolfc.com/sites/default/files/styles/md/public/2026-07/diogo-jota-online-tributes-03072026_28c4a9f3bbc10bffe536b874bd903f71.webp?itok=qoTbDpWu&width=1680",
+      "imageAlt": "'Always in our hearts' - tributes paid to Diogo Jota and André Silva - Liverpool FC"
+    },
+    {
+      "id": "5dd9ce280c2dec9f",
+      "client": "Formula E",
+      "clientShortName": "FE",
+      "clientCategory": "Motorsport",
+      "sourceType": "Official",
+      "title": "How to watch the 2026 Shanghai E-Prix",
+      "summary": "Here's how to watch, stream and follow the 2025/26 ABB FIA Formula E World Championship LIVE on TV where you are.",
+      "url": "https://www.fiaformulae.com/en/news/1075973/how-to-watch-the-2026-shanghai-e-prix",
+      "sourceName": "Formula E news",
+      "publishedAt": "2026-07-03T21:50:57.102622+00:00",
+      "importance": 80,
+      "relevanceScore": 79,
+      "verification": "Official source",
+      "imageUrl": "https://resources.formula-e.pulselive.com/photo-resources/2026/07/02/9e80ed65-0890-4bc6-8489-10e839d6d8a9/097A5447_VI6Uiabi_20260702064524.jpeg?width=1920&height=1080",
+      "imageAlt": "How to watch the 2026 Shanghai E-Prix"
+    },
+    {
+      "id": "6a958ea9969e97ba",
+      "client": "FIFA",
+      "clientShortName": "FIFA",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "FIFA World Cup 2026 stats: Mbappe tops Messi, beats Ronaldo record; Olise one behind Pele; Haaland 25 in 13 - ESPN",
+      "summary": "FIFA World Cup 2026 stats: Mbappe tops Messi, beats Ronaldo record; Olise one behind Pele; Haaland 25 in 13 ESPN",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZElKbjB3MmV2dUhhZ1p6OXBwRmVDX2t4bm9pNDlHWUtsWDNzMVdPbXpJWmhjR0xlaDZ6eWR5N3ZEd1RGbkQtUHdBUVlHQ3B6YTB5cmlKeEQtT1U3SFVfc2xVMG1UMW5WclgxaHBxdlNBQWJtVTZUSVRfS1hrSDU5dmd1eVJWZ0w3V1dnWnc4VHpheENiUk1PYlFzMndzWWxrR1Y5YzhKUERkc1ZNVDA0eHBFSUIteG9BUU16bXJUb0VxVHJhOTZWVURsVVppTDd4RXluQXBTZmtzUXZYNWJSWlJ6X3pKYUk3MUhlSGdLV3hOdmdES1pFWFZlbFQ?oc=5",
+      "sourceName": "ESPN",
+      "publishedAt": "2026-07-01T04:20:00+00:00",
+      "importance": 65,
+      "relevanceScore": 140,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "FIFA World Cup 2026 stats: Mbappe tops Messi, beats Ronaldo record; Olise one behind Pele; Haaland 25 in 13 - ESPN"
+    },
+    {
+      "id": "4951e57a0a3f882d",
+      "client": "FIFA",
+      "clientShortName": "FIFA",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions - Al Jazeera",
+      "summary": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSFI0X0JUMm5yRVRYUXgtYWVnWktZbVhsVnlvN3k0ZjNSNmZxZ3Awb0ppXzVLeDByUU90Y3F4UkRjc2JyRGd6MWJpYzJDWTB3WVVIdFZIZkRtUWJuVlBnbEpEUzFISU5yNEJOMW02YXVseHd4U1NzaGV5YmEzUjhGSWlMNmtxWTBkR0xJQ1NRS0Y4YnRYUFZFN1lEa2VJdnBKMHdyckpGaExIR0U5YUsxWVVjN0TSAboBQVVfeXFMTmpnR1VjdzRnZFpSdXBqX3NzNU5LZmlkdE5wZjA3ZGk3UlM5M0NuZmZlZVVSUHFTUzVtaWY1VHJ3a3lRSzE1aXZPMGQ4YnY5Y2ViT3MxenJaRU9DbUtWbVZWS3B2QjI1ZUFfN0Ita0xOX2lQdUw2WEs0YktSbkVQdW15QUhsWjk4SDgtZU9vVkxaX1d3akxOZ0ViUnRoTTJUZmJoRkRQZFZQeWRnN0cyZ1VhREpncDFobUNR?oc=5",
+      "sourceName": "Al Jazeera",
+      "publishedAt": "2026-06-27T09:37:39+00:00",
+      "importance": 60,
+      "relevanceScore": 140,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions - Al Jazeera"
+    },
+    {
+      "id": "642837795e829b49",
+      "client": "FIFA",
+      "clientShortName": "FIFA",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "FIFA World Cup: Tuesday schedule, predictions and eliminated teams - Al Jazeera",
+      "summary": "FIFA World Cup: Tuesday schedule, predictions and eliminated teams Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSzh3dzdqbDBpLWV3TEctSHFKaEcwbGJyZURNZ3FfZjBBbzBzNlc1SXNKRm1UWEkzaGcwbGJ5WEdqeXk0WXNkSkZvYUNzWjRhUnI3RkpZbDh6REh0eGRYRUN4RXBISHBoUjBOUXhoY2NDVnVZeG5DVHMwNmE0QXI0SlduSm5ZWFFTUFE0ZVdjN2t5SzU5TTRlS0VoM25qcGUtby05YjFQTVrSAa4BQVVfeXFMTVYwUnBhcW42dlU2ZF91VUJTam5OeWdhMGxXT0pZbUJINUZNWVVfemEtbzJUbzk0V2JnRzB5MEw3LThXbl9WY19YaHRLRWd5UnRoYlc0aXVUZUFJR3A1dHRRSTR3OWptcVBBak8zU0hFRWo5Y1hObWQydTBjTVFJNEhQeUVwSl9KZG5KN3I3X2ZDQ3J3SlRZS0M0YTNBa3JCclVHNEZiQlU0T2lnR0dB?oc=5",
+      "sourceName": "Al Jazeera",
+      "publishedAt": "2026-06-30T10:45:54+00:00",
+      "importance": 60,
+      "relevanceScore": 105,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "FIFA World Cup: Tuesday schedule, predictions and eliminated teams - Al Jazeera"
+    },
+    {
+      "id": "1ab4cb49332f8a19",
+      "client": "Juventus",
+      "clientShortName": "JUV",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "Gazzetta: Kolo Muani on the verge of joining Juventus, announcement expected soon - Yahoo Sports Canada",
+      "summary": "Gazzetta: Kolo Muani on the verge of joining Juventus, announcement expected soon Yahoo Sports Canada",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcjFmMmsyNTU5TFBTb3VQdXA4ek9CdVlaYUZHSEpoeDN6ejVaeWJYT3Yzck15WDkxckRKQzJITEJaMVdVNE56T2NXQlYxdEZzdUF4ejl6XzRfeXJ4aVVlS1NPZzQyeXBNY2s5dVRMVThqV2kyelF4clotLUN5U1hOTjNmSElFeDBX?oc=5",
+      "sourceName": "Yahoo Sports Canada",
+      "publishedAt": "2026-07-03T10:40:00+00:00",
+      "importance": 65,
+      "relevanceScore": 70,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Gazzetta: Kolo Muani on the verge of joining Juventus, announcement expected soon - Yahoo Sports Canada"
+    },
+    {
+      "id": "4305dfd29af9f755",
+      "client": "Chicago Bulls",
+      "clientShortName": "Bulls",
+      "clientCategory": "Basketball",
+      "sourceType": "Third-party RSS",
+      "title": "Chicago Bulls Re-Sign Veteran Center on Two-Year Deal - Yahoo Sports",
+      "summary": "Chicago Bulls Re-Sign Veteran Center on Two-Year Deal Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd01HMkJXTU5tOE96bEJBMEV0T0F5cktyUGFjRmF5VzNtXzUzR3l3UXR6T3NKX0VVUFk0U29VeVpjbUc2TnhGWV9CNzRZdzl1YXFMdV9ITnlFSktfYTRCaU5TOFFLVTJWWTNQZGV6TEthYUdOclYyaWgxV2dVZGtzejcwQWluZld1Nnc?oc=5",
+      "sourceName": "Yahoo Sports",
+      "publishedAt": "2026-07-01T12:00:15+00:00",
+      "importance": 65,
+      "relevanceScore": 70,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Chicago Bulls Re-Sign Veteran Center on Two-Year Deal - Yahoo Sports"
+    },
+    {
+      "id": "3c549e401cb05f35",
+      "client": "FIFA",
+      "clientShortName": "FIFA",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "FIFA considers kickoff change for Mexico-England World Cup clash, says source - Reuters",
+      "summary": "FIFA considers kickoff change for Mexico-England World Cup clash, says source Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV0F1dFZ2R3ZBbmRyZGI2Z0VqUlN3aHk1RzBVam41OUhqVEJGZndaNmxvZDR1b3ExT3FtV0Y3eDFlMzR6Y2diaWpZX20tRU1ySzVwak5Lbnppclh5d280THk0RWU3Nl9yWS1NMU01bGczUEpRQllzaUFCNGJ5eW9aUjY4dDZkZlpsWFNnTk9WQzJaOHNfeGVHX3NsSm1ZbGFSa1VrWFk3WFBmN1lmY3R4eVdtMUt4SEhKaFNDdHNxQXBXU1Bia3lv?oc=5",
+      "sourceName": "Reuters",
+      "publishedAt": "2026-07-03T20:09:41+00:00",
+      "importance": 60,
+      "relevanceScore": 70,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "FIFA considers kickoff change for Mexico-England World Cup clash, says source - Reuters"
+    },
+    {
+      "id": "5d8a17bcd5e268bd",
+      "client": "Juventus",
+      "clientShortName": "JUV",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "Sky: Bayern Munich show interest in Juventus defender Bremer - Yahoo Sports Canada",
+      "summary": "Sky: Bayern Munich show interest in Juventus defender Bremer Yahoo Sports Canada",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMkRFUTBqS3kyR1NLVV9SeEJ2SmtjNVBCRnhvZmJ3WDZBMXlIUjQtbUF6dU5TTXBfaFV2elNQMmo5UEhhMlFVd1dZT3JsQW5tNHVxeFlqR21iendNRlUyUDdwc0hwdkNBQmVvSFV3WlZXSjVmRG5GeXVQXzAyZFJSYk1WbFE5QQ?oc=5",
+      "sourceName": "Yahoo Sports Canada",
+      "publishedAt": "2026-07-03T12:25:00+00:00",
+      "importance": 60,
+      "relevanceScore": 70,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Sky: Bayern Munich show interest in Juventus defender Bremer - Yahoo Sports Canada"
+    },
+    {
+      "id": "07843f8ebdd4f802",
+      "client": "FIFA",
+      "clientShortName": "FIFA",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "World Cup 2026: Which teams have been eliminated? - ESPN",
+      "summary": "World Cup 2026: Which teams have been eliminated? ESPN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWS00STB3UXZIR0lEQTZqQTNJaERuaEMzNE84RFRqSWpoTGpRQm03VFB4Z3dHY3ZaODFlZlpqZG1tdy1melNFd3NCcENMSVpoa2I0NnF1VldCc29EQUpXdkVLREhHNnIwZ2R6OG9Ub2FvZHh5eUE0bVh3T1RwMThZRWhybzhTdTJDZncxV19R?oc=5",
+      "sourceName": "ESPN",
+      "publishedAt": "2026-07-03T06:34:00+00:00",
+      "importance": 60,
+      "relevanceScore": 70,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "World Cup 2026: Which teams have been eliminated? - ESPN"
+    },
+    {
+      "id": "5219e17e04c33dcc",
+      "client": "Formula E",
+      "clientShortName": "FE",
+      "clientCategory": "Motorsport",
+      "sourceType": "Third-party RSS",
+      "title": "Andretti Formula E Reaffirms Felipe Drugovich for the Start of the GEN4 Era - Andretti Global",
+      "summary": "Andretti Formula E Reaffirms Felipe Drugovich for the Start of the GEN4 Era Andretti Global",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0Q2N0JsODRFRndmSi1WU3pVRzRGX3VnZEFMTzBJR0Z2NjlKNUhiSFBOSHd0ZHZNX3FoWlJ3ZDlmX3ZhMk1Gc0FIR3lwN1VJaUhLVk41UXB5NEhWT2UtazFsNDBjb0xSeU9ZUmE0WkkydmFoZGJHM1IzcVZscmc5ckVqRDNVWnc4NWJLazN5S3Q4Ry1rbzVuMnVaMHFxdmd5?oc=5",
+      "sourceName": "Andretti Global",
+      "publishedAt": "2026-07-02T19:01:08+00:00",
+      "importance": 60,
+      "relevanceScore": 70,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Andretti Formula E Reaffirms Felipe Drugovich for the Start of the GEN4 Era - Andretti Global"
+    },
+    {
+      "id": "2f3f5717d826fae2",
+      "client": "Chicago Bulls",
+      "clientShortName": "Bulls",
+      "clientCategory": "Basketball",
+      "sourceType": "Third-party RSS",
+      "title": "NBA draft provides another look at Bryson Graham’s vision for the rebuilding Chicago Bulls - AP News",
+      "summary": "NBA draft provides another look at Bryson Graham’s vision for the rebuilding Chicago Bulls AP News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ1ZrRFBLZlphWlBzVTV5RjlMQ3ZyczdkZjNhZzhzMExLeUJIQTJEVnVld1gteHY0cWlPZDdiNERoczh0MF9sZmVsOWs2N1hscjJxU25HV1duT0YzME9hekQ1Y29DdkJMMjJuY2RmMFlVcFNMNU12c2EzSG1RMTdwaGdJa3BkWmZ2YmxWNkF6TQ?oc=5",
+      "sourceName": "AP News",
+      "publishedAt": "2026-06-25T14:12:00+00:00",
+      "importance": 60,
+      "relevanceScore": 70,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "NBA draft provides another look at Bryson Graham’s vision for the rebuilding Chicago Bulls - AP News"
+    },
+    {
+      "id": "1afeed74e9ac0e4c",
+      "client": "Premier League",
+      "clientShortName": "PL",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "Arsenal considers signing 28-year-old Premier League defender - Yahoo Sports",
+      "summary": "Arsenal considers signing 28-year-old Premier League defender Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcU16YWRmWnRmY3h2M21DOWFrcWdYSU5LbE5pWGQxZEJiUXZNYWJlVmUtYnhQVjh3S0hhbm8wcTlVcGNRQWxaNlBoaTZnYVdsblc2Y2RRTlREUlhMWVRhM0RHdmlBREhIM0R1SlFHMkVsV3JlVlpURE40Q3ozM3J2TVYtOEd0RjVL?oc=5",
+      "sourceName": "Yahoo Sports",
+      "publishedAt": "2026-07-03T14:00:00+00:00",
+      "importance": 65,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Arsenal considers signing 28-year-old Premier League defender - Yahoo Sports"
+    },
+    {
+      "id": "1ddc2df6d0cc0d62",
+      "client": "F1",
+      "clientShortName": "F1",
+      "clientCategory": "Motorsport",
+      "sourceType": "Third-party RSS",
+      "title": "British Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN",
+      "summary": "British Grand Prix 2026: Race start time, how to watch, full schedule, predictions ESPN",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNi1JSUd6b3dvRTNCdkc4NDZEa205enpra19FQWdranI5RjdzdjZaWTg5dTVwNVpZNlh3UFRrbGZwalRVZkR6REpNSHdxd2RfZGN5ZXZnOEhpUmcwandXWDBuTmQ1RDRpMk9qajUzZVFpU2JSR1VDYU5NWkN2LUVNR2phc0p5bTlISjF3Q00wOGVZLVJFcFZUS2liMHhsQTh6emloU0FEdWZ1N01FeDk0OEpWTFpJWld1cHpoY241cDVTVDVPNkFsTFgtdWZCSWtXRHdGanRYRF9YVzZ2Vk94SmplLUFBcWJWVjJDUWQ3ZnRZcmM?oc=5",
+      "sourceName": "ESPN",
+      "publishedAt": "2026-07-03T11:44:00+00:00",
+      "importance": 65,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "British Grand Prix 2026: Race start time, how to watch, full schedule, predictions - ESPN"
+    },
+    {
+      "id": "566fdca6cb9ab616",
+      "client": "Premier League",
+      "clientShortName": "PL",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs - Sky Sports",
+      "summary": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs Sky Sports",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOUkzY25NSzRMTzdkY0tCa2dQbTlpcV90QmY2c0JOWTFPb0VnRU1rUjJhbGVhRExlc0J2dG04cnZNdEFoRnRuaWQ1RktfTlhVbGFWeTY3R0daWnhuVk1lMGgxYm1BODFMQ1cxTGU5RTl1S1MxeHNaWWNMZWxwQXJ6TGdhYjEtY0M3QjBWWG15TWdBOURwX2pfRnJQUHZPUV9adHBYWVYwVjQzX1JlVW5sN0wtT3F6QmZ6UVM4S1NaVUJFY2M3eERTcmRR?oc=5",
+      "sourceName": "Sky Sports",
+      "publishedAt": "2026-07-03T19:05:28+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Transfer news: Summer transfer window 2026 - Premier League deals, ins and outs - Sky Sports"
+    },
+    {
+      "id": "d52035ee4a372fb9",
+      "client": "Chicago Bulls",
+      "clientShortName": "Bulls",
+      "clientCategory": "Basketball",
+      "sourceType": "Third-party RSS",
+      "title": "Bulls Still Have an Obvious Roster Void to Fill After Losing Anfernee Simons - Sports Illustrated",
+      "summary": "Bulls Still Have an Obvious Roster Void to Fill After Losing Anfernee Simons Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalV4YlU4dHhLUUxPZm5relA3YkkwbDJzelk5dTlYbmMwTWQtZkVkUHZtdnY4NktKaC1xZ0hkd0V4V1RJLU1WWTNkOFhwbmVraGJFX3VIeHR5YU1DRHYzR2hVa2Rudktib19TYkdjSTgwSFMteTd1UC1ic01ldVBRY2pldDBKZ05qUjVWbHlqT1I2Wml2TjMzU3p2eHVtLWR0YmVtQ3NoaDFMUGJvUko1SFBB?oc=5",
+      "sourceName": "Sports Illustrated",
+      "publishedAt": "2026-07-03T18:30:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Bulls Still Have an Obvious Roster Void to Fill After Losing Anfernee Simons - Sports Illustrated"
+    },
+    {
+      "id": "4620318f5421fff6",
+      "client": "F1",
+      "clientShortName": "F1",
+      "clientCategory": "Motorsport",
+      "sourceType": "Third-party RSS",
+      "title": "This is the starting grid for the 2026 F1 British GP sprint - Motorsport.com",
+      "summary": "This is the starting grid for the 2026 F1 British GP sprint Motorsport.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOHY2dFJta3RHTHZWU2pSZmxSXy1faDJ4NThlR1NmRFREVG5vWlB2TmNXVHY0T3dJS0N4MVBOVXJkMklyTkZaYzdvaWFta2tzQjA4cnVfVkFGdGRYZVpJMUpKT2t0dUI1bUNsOWdpejM2YWZaay1haDFNYl83WUVJTnNkUmluYWs4QzV4U1BYU2pJZkNIZFdqQVgyanpyT0lxMjF3aHFLWUhZNDc4VUNJag?oc=5",
+      "sourceName": "Motorsport.com",
+      "publishedAt": "2026-07-03T16:41:46+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "This is the starting grid for the 2026 F1 British GP sprint - Motorsport.com"
+    },
+    {
+      "id": "450bd8818758b9c0",
+      "client": "F1",
+      "clientShortName": "F1",
+      "clientCategory": "Motorsport",
+      "sourceType": "Third-party RSS",
+      "title": "F1 British GP: Lewis Hamilton claims sprint pole ahead of Kimi Antonelli - Motorsport.com",
+      "summary": "F1 British GP: Lewis Hamilton claims sprint pole ahead of Kimi Antonelli Motorsport.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdzd0MTBoVE84Y2wwWFI5aWNYcEh1QmVpWFJIN3I2S21vVnNjeTZXT2E1STlfU0tURHA4Yks4SUlEMzAzT191RFJPRk5DT3ltcERuVkZPendvTTlGQV9tWHR3Smw1ZzJQWWpyMDdfNnBna21tTWZibnlTVGswblFkcEpwel94d2VxZ2N1LQ?oc=5",
+      "sourceName": "Motorsport.com",
+      "publishedAt": "2026-07-03T16:26:05+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "F1 British GP: Lewis Hamilton claims sprint pole ahead of Kimi Antonelli - Motorsport.com"
+    },
+    {
+      "id": "25bf439394f612cf",
+      "client": "DP World Tour",
+      "clientShortName": "DPWT",
+      "clientCategory": "Golf",
+      "sourceType": "Third-party RSS",
+      "title": "YouTuber Brad Dalke fires a 66 on DP World Tour, sits 1 shot off lead - Golfweek",
+      "summary": "YouTuber Brad Dalke fires a 66 on DP World Tour, sits 1 shot off lead Golfweek",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeFhZMi1OM2NqajFGM1lhUmd1WEtwV09QSEp0NzJ3bUs2Smp0djJuNEhiQ3Z6a2FDV3JLQUQ0Q01UYnkycllJNXN6QmN1T0xzNEJZb3NpblVNb0JBUnlLWUxWXzl1ZXNuVERfZmJQQmJ3RVlFWF9PbDJaVVJtRzVrcXB0eWNyTTMxM2pTWHdlNU92bVJTNnlWVTk3SGljTmw0NGhUcWl6X29LQ0hXZEIxaXM0MHI0X1dEZTZaSHZlU2puNVJpdnNKd2o1NkxzTTZqNHdqYzFhc2x5VEo2MHZLSmRZM3BxSnBxbTRr?oc=5",
+      "sourceName": "Golfweek",
+      "publishedAt": "2026-07-03T15:01:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "YouTuber Brad Dalke fires a 66 on DP World Tour, sits 1 shot off lead - Golfweek"
+    },
+    {
+      "id": "0fcc921d499c821e",
+      "client": "Premier League",
+      "clientShortName": "PL",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "How Premier League clubs judge if a player can step up to elite level. What are the pressures? - The New York Times",
+      "summary": "How Premier League clubs judge if a player can step up to elite level. What are the pressures? The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb1hwdWtGdzFUTF90Tl93VGFXWkNMdmZndzY4bFZ0dTRCbTdhRXpHUzVLbHN6Njd0a2tIcjZQampEV19lTEVyUDUxSG1HTk8yYTQxODFsZEtPQ3h2dXZiMUhURlUxOTltNUQxNHhQUzV0SGRYUU5ocDFaRFFBdkNxekFmSGdSNlFhblE4RldlVjNrMVF3QVpmeW9wMA?oc=5",
+      "sourceName": "The New York Times",
+      "publishedAt": "2026-07-03T09:23:08+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "How Premier League clubs judge if a player can step up to elite level. What are the pressures? - The New York Times"
+    },
+    {
+      "id": "ba2c34713f5061e0",
+      "client": "Premier League",
+      "clientShortName": "PL",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "World Cup 2026: How many goals have players from Premier League clubs scored? - Sky Sports",
+      "summary": "World Cup 2026: How many goals have players from Premier League clubs scored? Sky Sports",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNG9aLTY0TllBYVlEOGtiaEVEUW1pM0NQWlpxcU1QNGFTNFRyXzk3bzBDajlHNy1sc2pfN0xwcHI2N1VDT2FRYTh4dmUwWjF4OUZ0ZExSTlo2ajgyc1p1aFNnWkVidWh3RmxZZ0JwMUdha05NcmxFODc4cktDS1RkcXBHSUJrWEs0WHRtYk5kME1iM3hWNTJkZ0UyN0xlbVhIM0pqelpzVkdrUW9jb2s5cUdnZFY5VHVOTkhxQlFWWld3UFNqVkM3UklB?oc=5",
+      "sourceName": "Sky Sports",
+      "publishedAt": "2026-07-03T08:14:49+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "World Cup 2026: How many goals have players from Premier League clubs scored? - Sky Sports"
+    },
+    {
+      "id": "e6eec96efbc3c001",
+      "client": "Premier League",
+      "clientShortName": "PL",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "Premier League, EFL summer transfer window 2026 dates: When is Deadline Day? - ESPN",
+      "summary": "Premier League, EFL summer transfer window 2026 dates: When is Deadline Day? ESPN",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVFlSWDFKT1pxNVRqMFMwOXpWY21EeWFUamNjaFM1WUJHTVpNRXlVRUVheFI2bjFuQnBRMzZyTVVvRFA0RU9XN290R1RCWlRHNVhRN2JMakpJbDZSb1FWYkJLaFVUV0NNSHBaUUFGNjNDbUFxSEYxa2Y3eWpud2w0b0NXc1YwZ3BMTXY0bzZpN0FRY2ZKLUloLURjLVRhdV9VeTRnczRjaEdFNDAycWdDZmZVeVNCY1ZSQnN4dGtsR0U?oc=5",
+      "sourceName": "ESPN",
+      "publishedAt": "2026-07-03T06:45:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Premier League, EFL summer transfer window 2026 dates: When is Deadline Day? - ESPN"
+    },
+    {
+      "id": "e400b0d69537d226",
+      "client": "DP World Tour",
+      "clientShortName": "DPWT",
+      "clientCategory": "Golf",
+      "sourceType": "Third-party RSS",
+      "title": "Brad Dalke, playing DP World Tour on sponsor invitation, shoots 69 with a near-ace - Golfweek",
+      "summary": "Brad Dalke, playing DP World Tour on sponsor invitation, shoots 69 with a near-ace Golfweek",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRGJ2UEJmajRCN2FCbHRsTUhZTWFCSGNKMDJFbC03NnFDRkJCLTkyQnIwYW5SeVNwakw3S0hQRTRtazhVTkVxY2otT01BYzhWUkRESks0eS1wU1RrRTRDdlFZUGxWZ1ZzVWtHQUI4WDd2bmh2Rk9idFpDZFRCbEk4N1gyLTBYSkxPNnBVQjFmZkxHdUdEdW5pYnU1RHBzWGlWY0g1T1pQS2o3UVJJUVlQZVhuZlpaT1hzRWtjUWl5Rzl3UQ?oc=5",
+      "sourceName": "Golfweek",
+      "publishedAt": "2026-07-02T20:23:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Brad Dalke, playing DP World Tour on sponsor invitation, shoots 69 with a near-ace - Golfweek"
+    },
+    {
+      "id": "f45e93cfe3a6f5f5",
+      "client": "Ferrari F1",
+      "clientShortName": "FER",
+      "clientCategory": "Motorsport",
+      "sourceType": "Third-party RSS",
+      "title": "Lewis Hamilton invokes Nigel Mansell before British GP title push - total-motorsport.com",
+      "summary": "Lewis Hamilton invokes Nigel Mansell before British GP title push total-motorsport.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSWV4OWZESWtaNng3RER6ZmxsaUxsemc0RlBNa2tvSjVtU3lhQUdoM2stNV9IM0I1emhXVzdSa0FUN09USVZEWGQyWHJjalJja2l4RWpmN1VpU0I3aUd6eF82c29qaWloNktUMElWeEt6MGtqLS1vbDNrdEZZcUhuNHhFbDhXMS1DbHNQZw?oc=5",
+      "sourceName": "total-motorsport.com",
+      "publishedAt": "2026-07-02T18:09:57+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Lewis Hamilton invokes Nigel Mansell before British GP title push - total-motorsport.com"
+    },
+    {
+      "id": "5ff54b36e3d2e480",
+      "client": "Liverpool FC",
+      "clientShortName": "LFC",
+      "clientCategory": "Football",
+      "sourceType": "Third-party RSS",
+      "title": "Liverpool sporting director Richard Hughes expected to join Simon Francis at Al Hilal - The Athletic - The New York Times",
+      "summary": "Liverpool sporting director Richard Hughes expected to join Simon Francis at Al Hilal - The Athletic The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWDcyMzkyVVRud0dzQUsweWxINlFQYnNXLUtGTVk4cExianlhMjJNWTV6MG41RGZiOERjYllpN0hGNEdWbmd0ZllBQmM5QnJTM2FVX1F3STFpVXZGMER2T1lIVlpBVG9rLXBSY19GOFVxaWx1cXNRMGxybzlXWUU3dGwxVDQwMFRrTHE2dnlHRmw4SEtXVUk4?oc=5",
+      "sourceName": "The New York Times",
+      "publishedAt": "2026-07-02T16:10:42+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Liverpool sporting director Richard Hughes expected to join Simon Francis at Al Hilal - The Athletic - The New York Times"
+    },
+    {
+      "id": "d69e46835eb6fb39",
+      "client": "Formula E",
+      "clientShortName": "FE",
+      "clientCategory": "Motorsport",
+      "sourceType": "Third-party RSS",
+      "title": "Andretti Formula E Looks to Extend Strong Form in Shanghai - Andretti Global",
+      "summary": "Andretti Formula E Looks to Extend Strong Form in Shanghai Andretti Global",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02X0RLT3pNZlJmQTZPNlpaMnlWcEJaZFNPVDBuc2YzZFIwOEpxME5XbmlMbmxWOGlWVGtlNXdWY1hCVm1yNk9rNE5mdy1SUHYwelRKdG9RZEhmLVpKRjlhX0FidGJxN1BmMGhDaTV3?oc=5",
+      "sourceName": "Andretti Global",
+      "publishedAt": "2026-07-01T15:57:31+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Andretti Formula E Looks to Extend Strong Form in Shanghai - Andretti Global"
+    },
+    {
+      "id": "05666d4d8a5f10e5",
+      "client": "Chicago Bulls",
+      "clientShortName": "Bulls",
+      "clientCategory": "Basketball",
+      "sourceType": "Third-party RSS",
+      "title": "Sources: Norman Powell agrees to 2-year, $45M deal with Bulls - ESPN",
+      "summary": "Sources: Norman Powell agrees to 2-year, $45M deal with Bulls ESPN",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVk80UFJaZFVIekRLY1BUUElRNGJZME9EWUwxamFtMG1BMFZOV2pycU1qYXZLSHJ1aHlmMDJveUlULVl0RVo2aUJrYnFOSllxQUhHdVpUTW00RW1rQm1weXpmYTFIV1RFdGVjSU5fSHN5OG54UXhNOER0NmYxcmwyRS1zSEUxTWdqSGtBSEdMbGRRZ3BBTC1RcFNHbw?oc=5",
+      "sourceName": "ESPN",
+      "publishedAt": "2026-07-01T13:43:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Sources: Norman Powell agrees to 2-year, $45M deal with Bulls - ESPN"
+    },
+    {
+      "id": "36d7ad7c5435f00e",
+      "client": "Chicago Bulls",
+      "clientShortName": "Bulls",
+      "clientCategory": "Basketball",
+      "sourceType": "Third-party RSS",
+      "title": "Bulls hope for more UNC magic with Wilson. Bucks begin post-Giannis era by taking Burries and Ament - AP News",
+      "summary": "Bulls hope for more UNC magic with Wilson. Bucks begin post-Giannis era by taking Burries and Ament AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVExBVkUybWhOTTgxMF9uTmJvQ0tlQkpBSlVUOVc1ekJYT2phUUJuMzJiN2J0dFJ2X3VNTWFoZGxGYUhJei1mLUpKSnVJWmo3cUNSLUVfd0FVTC1wVzNDQzFNYURaVkh6VWJuRjJ5YVVicGpSYWV3RllMTmtwNnh4Qmd1d0hXRndGWFpXUHBObHRmTVU5RXRuQnlLUFlZSkZIM3VJ?oc=5",
+      "sourceName": "AP News",
+      "publishedAt": "2026-06-25T13:15:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Bulls hope for more UNC magic with Wilson. Bucks begin post-Giannis era by taking Burries and Ament - AP News"
+    },
+    {
+      "id": "18f4268762366202",
+      "client": "ITF",
+      "clientShortName": "ITF",
+      "clientCategory": "Tennis",
+      "sourceType": "Third-party RSS",
+      "title": "ITF becomes World Tennis, outlines vision to grow participation - Reuters",
+      "summary": "ITF becomes World Tennis, outlines vision to grow participation Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNajNGb1lUeDIyX1BtR0d3aXJrQkVsXzBTQllNSjJaT3RWN21zRXdabUFmZThSU3AxVEJ2VEhZZExUMWEyMjBDYVZ0NHp5VjlpbnZpb0szMUt3d09MRnQyNVRnYXdkbFdHLVZOWHFrYzg1UXZqZ293ZWozVHMtM3lhREotSU9NZ0tNckV4TDIwRzh5LTVESFJCcFVKdnlvRzNvR3I1Zml0el9keURjU1E?oc=5",
+      "sourceName": "Reuters",
+      "publishedAt": "2026-06-25T11:03:43+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "ITF becomes World Tennis, outlines vision to grow participation - Reuters"
+    },
+    {
+      "id": "b0501048895b4d43",
+      "client": "ITF",
+      "clientShortName": "ITF",
+      "clientCategory": "Tennis",
+      "sourceType": "Third-party RSS",
+      "title": "International Tennis Federation rebrands as World Tennis - ESPN",
+      "summary": "International Tennis Federation rebrands as World Tennis ESPN",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUFZleHBIckdPNmszR093ckJQVXltQ3hwbGo3S0EtLUpoYk5Db2RLbU01WUg2am8ySDhfYXg4LXJQaUxzT0hocy1ZdEZSSTItQVp2RktUQXRTbE5ySHQ4RU92NUhycDhqQ3IwTFp3ZHZOWEdNZm4zWG54eHN6RUpaa1VjZVBLV0d2RzlzYk5hcmxrSng5QlFoZmVBQVpkeXd0TXFn?oc=5",
+      "sourceName": "ESPN",
+      "publishedAt": "2026-06-25T10:16:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "International Tennis Federation rebrands as World Tennis - ESPN"
+    },
+    {
+      "id": "3eb576c85562d936",
+      "client": "SailGP",
+      "clientShortName": "SGP",
+      "clientCategory": "Sailing",
+      "sourceType": "Third-party RSS",
+      "title": "SailGP: Spanish team Los Gallos pulls out all the stops to win Canada Sail Grand Prix - The Athletic - The New York Times",
+      "summary": "SailGP: Spanish team Los Gallos pulls out all the stops to win Canada Sail Grand Prix - The Athletic The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFl3X3FHZDM1MXdKMTl5N0szczFOSDVsOGk0SGIzUlljUl9yclhpNFlLcjBzNTVtakpBcGdZQ193ZDI3Q05YblhCWDBTRjdkYVNhM29iOWlsUnZPT3lFRlROQkFUSVJjOUxtc2NETk50WW9yWXpMOXdsTGR0NVltNjFmLWpTOVBJd1FGVFlrUUZ0UUVENVE?oc=5",
+      "sourceName": "The New York Times",
+      "publishedAt": "2026-06-21T07:00:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "SailGP: Spanish team Los Gallos pulls out all the stops to win Canada Sail Grand Prix - The Athletic - The New York Times"
+    },
+    {
+      "id": "fb749ef4791aa316",
+      "client": "SailGP",
+      "clientShortName": "SGP",
+      "clientCategory": "Sailing",
+      "sourceType": "Third-party RSS",
+      "title": "Los Gallos claim first 2026 SailGP win in Halifax - Reuters",
+      "summary": "Los Gallos claim first 2026 SailGP win in Halifax Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaEFveVB4WWJIblR5QWg5SXlWQUVTVlVLYkRyZHFTR013bVQxRVBWQ1EtWm9pdHJGVHFXLVZpUUdOWXMwR1M1R2dLNzBJZFZaU3E5VDNud3VnX1NiOE1Qb1ljOUNMNFI2Vkk4Tjk5Z2U4THBxX0RsRHhsRWF5NGs2RHp2Xy1MczNqOXBxTEVDMjhBWjA?oc=5",
+      "sourceName": "Reuters",
+      "publishedAt": "2026-06-21T07:00:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Los Gallos claim first 2026 SailGP win in Halifax - Reuters"
+    },
+    {
+      "id": "31d2f28fd09f3ebf",
+      "client": "SailGP",
+      "clientShortName": "SGP",
+      "clientCategory": "Sailing",
+      "sourceType": "Third-party RSS",
+      "title": "SailGP’s split-fleet racing format divides skippers as safety takes priority in Halifax - The Athletic - The New York Times",
+      "summary": "SailGP’s split-fleet racing format divides skippers as safety takes priority in Halifax - The Athletic The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbkNZamphVU9fcHVJN0UwaG1LbVY5akRKak9KZF9hYTJJNjZodVZweU9ydjgyUUYwYzhxQTFDNERMQm8wOHU1TDhiZERWMVRkTUlQRl9mX3REQU5KV3IxU3hMQUNUYkgwOXJOd2UwZHI0R0taSmRNOVJoY0FIR19rVWFBNFBuVzJZak9NbmF3T0NVeUpVbTBMdmhOdE4zMUs2V19VbWtNeHpHa1Y0S1E?oc=5",
+      "sourceName": "The New York Times",
+      "publishedAt": "2026-06-20T07:00:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "SailGP’s split-fleet racing format divides skippers as safety takes priority in Halifax - The Athletic - The New York Times"
+    },
+    {
+      "id": "506c594f84f79c80",
+      "client": "SailGP",
+      "clientShortName": "SGP",
+      "clientCategory": "Sailing",
+      "sourceType": "Third-party RSS",
+      "title": "New Zealand SailGP team bought by MSP Sports Capital - Reuters",
+      "summary": "New Zealand SailGP team bought by MSP Sports Capital Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUjl2SVF5a09mejFhanY1bFlTNHhVZHp0d1pZM3N3clgyUUNTRG1KT2lUWXhER3Vremtaa0NONWJyS2NKMWY4SDN3d3JJZERIODBQWE5CTEduYmFSSzRUcy1BVFoyMjdlR2pGb2VmZDA5YUstYkR2dkRJdm1IUExza25ZeEdoUHBVZ2lydGZCZU9nVXNNdGV1T0Vodw?oc=5",
+      "sourceName": "Reuters",
+      "publishedAt": "2026-06-19T07:00:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "New Zealand SailGP team bought by MSP Sports Capital - Reuters"
+    },
+    {
+      "id": "9b8545f3626d24ea",
+      "client": "SailGP",
+      "clientShortName": "SGP",
+      "clientCategory": "Sailing",
+      "sourceType": "Third-party RSS",
+      "title": "Fast-growing SailGP wants to be around for 'hundreds of years' - Reuters",
+      "summary": "Fast-growing SailGP wants to be around for 'hundreds of years' Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUjdfQl9wcU9XZnNmS2JLdldFM0hOaktYeXY0MnpjSmNrdGFfemdBaER3U25JRWNWdG9rcVBQaE5ianVYdnZQUFEySDJDeWRIQVhkLWc3eFZHSmZOZzRKQ2FIVjl5VXhWMm52WEhaaTd0c09zNzdBUlExcXQ5V2RHZDU2MW5sNnVNUnpLbC1HSm5ZbmVMRVQ3Nw?oc=5",
+      "sourceName": "Reuters",
+      "publishedAt": "2026-06-09T07:00:00+00:00",
+      "importance": 60,
+      "relevanceScore": 35,
+      "verification": "Trusted RSS + keyword match + allowlist pass",
+      "imageUrl": null,
+      "imageAlt": "Fast-growing SailGP wants to be around for 'hundreds of years' - Reuters"
+    }
+  ]
+}

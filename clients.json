@@ -1,0 +1,109 @@
+{
+  "clients": [
+    {
+      "name": "F1",
+      "shortName": "F1",
+      "category": "Motorsport",
+      "keywords": ["formula 1", "f1", "grand prix", "fia formula one"],
+      "aliases": ["Formula 1"]
+    },
+    {
+      "name": "Formula E",
+      "shortName": "FE",
+      "category": "Motorsport",
+      "keywords": ["formula e", "fia formula e", "e-prix", "gen4"],
+      "aliases": ["FE"]
+    },
+    {
+      "name": "Jaguar TCS FE",
+      "shortName": "JAG",
+      "category": "Motorsport",
+      "keywords": ["jaguar tcs", "jaguar racing", "jaguar tcs racing", "jaguar formula e"],
+      "aliases": ["Jaguar Racing", "Jaguar TCS Racing"]
+    },
+    {
+      "name": "Ferrari F1",
+      "shortName": "FER",
+      "category": "Motorsport",
+      "keywords": ["scuderia ferrari", "ferrari f1", "ferrari formula 1", "leclerc", "hamilton"],
+      "aliases": ["Scuderia Ferrari"]
+    },
+    {
+      "name": "Liverpool FC",
+      "shortName": "LFC",
+      "category": "Football",
+      "keywords": ["liverpool fc", "liverpool", "lfc", "anfield"],
+      "aliases": ["Liverpool"]
+    },
+    {
+      "name": "FIFA",
+      "shortName": "FIFA",
+      "category": "Football",
+      "keywords": ["fifa", "world cup", "club world cup", "world cup 2026"],
+      "aliases": ["FIFA World Cup"]
+    },
+    {
+      "name": "Premier League",
+      "shortName": "PL",
+      "category": "Football",
+      "keywords": ["premier league", "epl", "english premier league"],
+      "aliases": ["EPL"]
+    },
+    {
+      "name": "Juventus",
+      "shortName": "JUV",
+      "category": "Football",
+      "keywords": ["juventus", "juve", "bianconeri"],
+      "aliases": ["Juve"]
+    },
+    {
+      "name": "Chicago Bulls",
+      "shortName": "Bulls",
+      "category": "Basketball",
+      "keywords": ["chicago bulls", "bulls", "nba bulls"],
+      "aliases": ["Bulls"]
+    },
+    {
+      "name": "WST",
+      "shortName": "WST",
+      "category": "Snooker",
+      "keywords": ["world snooker tour", "wst", "snooker"],
+      "aliases": ["World Snooker Tour"]
+    },
+    {
+      "name": "SailGP",
+      "shortName": "SGP",
+      "category": "Sailing",
+      "keywords": ["sailgp", "rolex sailgp championship", "sail gp"],
+      "aliases": ["Rolex SailGP Championship"]
+    },
+    {
+      "name": "ITF",
+      "shortName": "ITF",
+      "category": "Tennis",
+      "keywords": ["international tennis federation", "itf", "world tennis tour"],
+      "aliases": ["International Tennis Federation"]
+    },
+    {
+      "name": "DP World Tour",
+      "shortName": "DPWT",
+      "category": "Golf",
+      "keywords": ["dp world tour", "race to dubai", "european tour golf"],
+      "aliases": ["European Tour"]
+    },
+    {
+      "name": "Shanghai Marathon",
+      "shortName": "SHM",
+      "category": "Running",
+      "keywords": ["shanghai marathon", "shanghai race", "上马", "上海马拉松"],
+      "aliases": ["SHM"]
+    },
+    {
+      "name": "Gordon Ramsay",
+      "shortName": "GR",
+      "category": "Hospitality",
+      "keywords": ["gordon ramsay", "gordon ramsay restaurants", "bread street kitchen", "lucky cat by gordon ramsay"],
+      "aliases": ["Gordon Ramsay Restaurants"]
+    }
+  ]
+}
