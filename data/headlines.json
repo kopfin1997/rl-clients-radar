@@ -1,0 +1,15 @@
+{
+  "updatedAt": null,
+  "clients": [],
+  "sources": [],
+  "summary": {
+    "trackedClientCount": 0,
+    "coveredClientCount": 0,
+    "sourceCount": 0,
+    "itemCount": 0,
+    "officialItemCount": 0,
+    "thirdPartyItemCount": 0,
+    "coverImageCount": 0
+  },
+  "items": []
+}
