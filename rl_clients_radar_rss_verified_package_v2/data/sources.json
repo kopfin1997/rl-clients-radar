@@ -1,0 +1,360 @@
+{
+  "updatedAt": null,
+  "sources": [
+    {
+      "client": "F1",
+      "sourceType": "Official",
+      "label": "Formula1.com latest",
+      "url": "https://www.formula1.com/en/latest",
+      "method": "scrape"
+    },
+    {
+      "client": "F1",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Formula 1",
+      "url": "https://news.google.com/rss/search?q=Formula%201%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "F1",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Formula 1",
+      "url": "https://news.google.com/rss/search?q=Formula%201%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "Formula E",
+      "sourceType": "Official",
+      "label": "Formula E news",
+      "url": "https://www.fiaformulae.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Formula E",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Formula E",
+      "url": "https://news.google.com/rss/search?q=Formula%20E%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Formula E",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Formula E",
+      "url": "https://news.google.com/rss/search?q=Formula%20E%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "Jaguar TCS FE",
+      "sourceType": "Official",
+      "label": "Jaguar Racing Media Centre",
+      "url": "https://media.jaguarracing.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Jaguar TCS FE",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Jaguar TCS Racing",
+      "url": "https://news.google.com/rss/search?q=Jaguar%20TCS%20Racing%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Jaguar TCS FE",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Jaguar Formula E",
+      "url": "https://news.google.com/rss/search?q=Jaguar%20Formula%20E%20site:reuters.com%20when:21d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "Ferrari F1",
+      "sourceType": "Official",
+      "label": "Ferrari Formula 1",
+      "url": "https://www.ferrari.com/en-EN/formula1",
+      "method": "scrape"
+    },
+    {
+      "client": "Ferrari F1",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Scuderia Ferrari",
+      "url": "https://news.google.com/rss/search?q=Scuderia%20Ferrari%20F1%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Ferrari F1",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: Ferrari F1",
+      "url": "https://news.google.com/rss/search?q=Ferrari%20Formula%201%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "Liverpool FC",
+      "sourceType": "Official",
+      "label": "LiverpoolFC.com/news",
+      "url": "https://www.liverpoolfc.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Liverpool FC",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Liverpool FC",
+      "url": "https://news.google.com/rss/search?q=Liverpool%20FC%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Liverpool FC",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Liverpool FC",
+      "url": "https://news.google.com/rss/search?q=Liverpool%20FC%20site:bbc.com%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["BBC Sport", "BBC News"],
+      "domainAllowlist": ["bbc.com", "bbc.co.uk"]
+    },
+    {
+      "client": "FIFA",
+      "sourceType": "Official",
+      "label": "FIFA.com news",
+      "url": "https://www.fifa.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "FIFA",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: FIFA",
+      "url": "https://news.google.com/rss/search?q=FIFA%20World%20Cup%202026%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "FIFA",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: World Cup 2026",
+      "url": "https://news.google.com/rss/search?q=World%20Cup%202026%20site:reuters.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "Premier League",
+      "sourceType": "Official",
+      "label": "PremierLeague.com/news",
+      "url": "https://www.premierleague.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Premier League",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Premier League",
+      "url": "https://news.google.com/rss/search?q=Premier%20League%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Premier League",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Premier League",
+      "url": "https://news.google.com/rss/search?q=Premier%20League%20site:bbc.com%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["BBC Sport", "BBC News"],
+      "domainAllowlist": ["bbc.com", "bbc.co.uk"]
+    },
+    {
+      "client": "Juventus",
+      "sourceType": "Official",
+      "label": "Juventus news",
+      "url": "https://www.juventus.com/en/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Juventus",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Juventus",
+      "url": "https://news.google.com/rss/search?q=Juventus%20when:5d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Juventus",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Juventus",
+      "url": "https://news.google.com/rss/search?q=Juventus%20site:bbc.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["BBC Sport", "BBC News"],
+      "domainAllowlist": ["bbc.com", "bbc.co.uk"]
+    },
+    {
+      "client": "Chicago Bulls",
+      "sourceType": "Official",
+      "label": "NBA.com/Bulls news",
+      "url": "https://www.nba.com/bulls/news",
+      "method": "scrape"
+    },
+    {
+      "client": "Chicago Bulls",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Chicago Bulls",
+      "url": "https://news.google.com/rss/search?q=Chicago%20Bulls%20when:3d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Chicago Bulls",
+      "sourceType": "Third-party RSS",
+      "label": "AP via Google News: Chicago Bulls",
+      "url": "https://news.google.com/rss/search?q=Chicago%20Bulls%20site:apnews.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["AP News", "The Associated Press"],
+      "domainAllowlist": ["apnews.com"]
+    },
+    {
+      "client": "WST",
+      "sourceType": "Official",
+      "label": "WST.tv news",
+      "url": "https://www.wst.tv/news",
+      "method": "scrape"
+    },
+    {
+      "client": "WST",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: World Snooker Tour",
+      "url": "https://news.google.com/rss/search?q=World%20Snooker%20Tour%20when:7d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "WST",
+      "sourceType": "Third-party RSS",
+      "label": "BBC Sport via Google News: Snooker",
+      "url": "https://news.google.com/rss/search?q=Snooker%20site:bbc.com%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["BBC Sport", "BBC News"],
+      "domainAllowlist": ["bbc.com", "bbc.co.uk"]
+    },
+    {
+      "client": "SailGP",
+      "sourceType": "Official",
+      "label": "SailGP news",
+      "url": "https://sailgp.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "SailGP",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: SailGP",
+      "url": "https://news.google.com/rss/search?q=SailGP%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "SailGP",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: SailGP",
+      "url": "https://news.google.com/rss/search?q=SailGP%20site:reuters.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "ITF",
+      "sourceType": "Official",
+      "label": "ITF World Tennis News",
+      "url": "https://www.itftennis.com/en/news-and-media/articles/",
+      "method": "scrape"
+    },
+    {
+      "client": "ITF",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: ITF Tennis",
+      "url": "https://news.google.com/rss/search?q=ITF%20tennis%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "ITF",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: ITF Tennis",
+      "url": "https://news.google.com/rss/search?q=ITF%20tennis%20site:reuters.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "DP World Tour",
+      "sourceType": "Official",
+      "label": "DP World Tour news",
+      "url": "https://www.dpworldtour.com/news",
+      "method": "scrape"
+    },
+    {
+      "client": "DP World Tour",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: DP World Tour",
+      "url": "https://news.google.com/rss/search?q=DP%20World%20Tour%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "DP World Tour",
+      "sourceType": "Third-party RSS",
+      "label": "Reuters via Google News: DP World Tour",
+      "url": "https://news.google.com/rss/search?q=DP%20World%20Tour%20site:reuters.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["Reuters"],
+      "domainAllowlist": ["reuters.com"]
+    },
+    {
+      "client": "Shanghai Marathon",
+      "sourceType": "Official",
+      "label": "Shanghai Marathon official",
+      "url": "https://static.shang-ma.com/",
+      "method": "scrape"
+    },
+    {
+      "client": "Shanghai Marathon",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Shanghai Marathon",
+      "url": "https://news.google.com/rss/search?q=Shanghai%20Marathon%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Shanghai Marathon",
+      "sourceType": "Third-party RSS",
+      "label": "China Daily via Google News: Shanghai Marathon",
+      "url": "https://news.google.com/rss/search?q=Shanghai%20Marathon%20site:chinadaily.com.cn%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["China Daily"],
+      "domainAllowlist": ["chinadaily.com.cn"]
+    },
+    {
+      "client": "Gordon Ramsay",
+      "sourceType": "Official",
+      "label": "Gordon Ramsay Restaurants what's on",
+      "url": "https://www.gordonramsayrestaurants.com/whats-on/",
+      "method": "scrape"
+    },
+    {
+      "client": "Gordon Ramsay",
+      "sourceType": "Third-party RSS",
+      "label": "Google News RSS: Gordon Ramsay",
+      "url": "https://news.google.com/rss/search?q=Gordon%20Ramsay%20restaurants%20when:14d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss"
+    },
+    {
+      "client": "Gordon Ramsay",
+      "sourceType": "Third-party RSS",
+      "label": "BBC News via Google News: Gordon Ramsay",
+      "url": "https://news.google.com/rss/search?q=Gordon%20Ramsay%20site:bbc.com%20when:30d&hl=en-US&gl=US&ceid=US:en",
+      "method": "rss",
+      "publisherAllowlist": ["BBC News"],
+      "domainAllowlist": ["bbc.com", "bbc.co.uk"]
+    }
+  ],
+  "verificationRules": {
+    "official": "Official URLs are allowed directly after title/date/url extraction.",
+    "thirdParty": "Third-party RSS items are allowed only if title/source summary contains the client keyword/entity, any source allowlist passes, and the publisher is not blocked.",
+    "blockedDomains": [
+      "rumor",
+      "reddit.com",
+      "fan forum"
+    ],
+    "imagePolicy": "Prefer feed-native media, then nearby card images, then article metadata such as og:image or twitter:image."
+  }
+}
